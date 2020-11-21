@@ -4,11 +4,11 @@
 export CUDA_DEVICE_ORDER=PCI_BUS_ID
 export CUDA_VISIBLE_DEVICES=0
 
-export EXP_PREFIX="results/amp"
+export EXP_PREFIX="results/ec2-v100/amp"
 export MODEL_NAME="distilroberta-base"
 export BATCH_SIZE=8
 export SEQ_LEN=128
-export EXP_NAME="$EXP_PREFIX-$MODEL_NAME-$SEQ_LEN-$BATCH_SIZE"
+export EXP_NAME="$EXP_PREFIX/$MODEL_NAME-$SEQ_LEN-$BATCH_SIZE"
 
 # profile
 dlprof --mode=simple --reports=summary --output_path=$EXP_NAME \

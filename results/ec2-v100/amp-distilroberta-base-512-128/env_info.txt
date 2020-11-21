@@ -1,0 +1,44 @@
+PyTorch version: 1.7.0a0+7036e91
+Is debug build: False
+CUDA used to build PyTorch: 11.1
+ROCM used to build PyTorch: N/A
+
+OS: Ubuntu 18.04.5 LTS (x86_64)
+GCC version: (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+Clang version: Could not collect
+CMake version: version 3.14.0
+
+Python version: 3.6 (64-bit runtime)
+Is CUDA available: True
+CUDA runtime version: Could not collect
+GPU models and configuration: GPU 0: Tesla V100-SXM2-16GB
+Nvidia driver version: 455.45.01
+cuDNN version: Probably one of the following:
+/usr/lib/x86_64-linux-gnu/libcudnn.so.8.0.4
+/usr/lib/x86_64-linux-gnu/libcudnn_adv_infer.so.8.0.4
+/usr/lib/x86_64-linux-gnu/libcudnn_adv_train.so.8.0.4
+/usr/lib/x86_64-linux-gnu/libcudnn_cnn_infer.so.8.0.4
+/usr/lib/x86_64-linux-gnu/libcudnn_cnn_train.so.8.0.4
+/usr/lib/x86_64-linux-gnu/libcudnn_ops_infer.so.8.0.4
+/usr/lib/x86_64-linux-gnu/libcudnn_ops_train.so.8.0.4
+HIP runtime version: N/A
+MIOpen runtime version: N/A
+
+Versions of relevant libraries:
+[pip3] numpy==1.19.1
+[pip3] pytorch-lightning==1.0.7
+[pip3] pytorch-transformers==1.1.0
+[pip3] torch==1.7.0a0+7036e91
+[pip3] torchtext==0.8.0a0
+[pip3] torchvision==0.8.0a0
+[conda] magma-cuda110             2.5.2                         5    local
+[conda] mkl                       2019.1                      144  
+[conda] mkl-include               2019.1                      144  
+[conda] nomkl                     3.0                           0  
+[conda] numpy                     1.19.1           py36h30dfecb_0  
+[conda] numpy-base                1.19.1           py36h75fe3a5_0  
+[conda] pytorch-lightning         1.0.7                    pypi_0    pypi
+[conda] pytorch-transformers      1.1.0                    pypi_0    pypi
+[conda] torch                     1.7.0a0+7036e91          pypi_0    pypi
+[conda] torchtext                 0.8.0a0                  pypi_0    pypi
+[conda] torchvision               0.8.0a0                  pypi_0    pypi
