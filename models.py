@@ -42,12 +42,12 @@ class TransformerModel(pl.LightningModule):
         attention_mask = batch["attention_mask"]
         outputs = self.transformer(input_ids, attention_mask=attention_mask, labels=labels)
         loss_value = torch.nn.functional.cross_entropy(outputs["logits"], labels)
-        return loss_value
+        return {"loss": loss_value}
     
     def training_epoch_end(self, outputs):
         loss_list = [o["loss"] for o in outputs]
         final_loss = sum(loss_list)/len(outputs)
-        self.log("train_loss", final_loss)
+        self.log("train_loss", final_loss, on_epoch=True)
     
     def test_step(self, batch, batch_idx):
         input_ids = batch["input_ids"]
@@ -59,5 +59,5 @@ class TransformerModel(pl.LightningModule):
     
     def test_epoch_end(self, outputs):
         final_loss = sum(outputs)/len(outputs)
-        self.log("test_loss", final_loss)
+        self.log("test_loss", final_loss, on_epoch=True)
     

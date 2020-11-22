@@ -1,0 +1,141 @@
+{
+  "All Kernels" : 
+  {
+    "All kernels" : 
+    {
+      "# Kernels" : 44,
+      "CPU Time (ns)" : 46653683360,
+      "GPU Time (ns)" : 101855135426
+    },
+    "All other kernels" : 
+    {
+      "# Kernels" : 29,
+      "CPU Time (ns)" : 36974798253,
+      "GPU Time (ns)" : 72772494579
+    },
+    "Kernels using TC" : 
+    {
+      "# Kernels" : 11,
+      "CPU Time (ns)" : 4287006208,
+      "GPU Time (ns)" : 28026794903
+    },
+    "Memory" : 
+    {
+      "# Kernels" : 4,
+      "CPU Time (ns)" : 5391878899,
+      "GPU Time (ns)" : 1055845944
+    }
+  },
+  "All Ops" : 
+  {
+    "All ops" : 
+    {
+      "# Ops" : 1,
+      "CPU Time (ns)" : 0,
+      "GPU Time (ns)" : 101798168745
+    },
+    "All other ops" : 
+    {
+      "# Ops" : 0,
+      "CPU Time (ns)" : 0,
+      "GPU Time (ns)" : 0
+    },
+    "Ops eligible for TC but not using" : 
+    {
+      "# Ops" : 0,
+      "CPU Time (ns)" : 0,
+      "GPU Time (ns)" : 0
+    },
+    "Ops using TC" : 
+    {
+      "# Ops" : 1,
+      "CPU Time (ns)" : 0,
+      "GPU Time (ns)" : 101798168745
+    }
+  },
+  "Iterations" : 
+  {
+    "Aggregated Iterations" : 
+    [
+      0
+    ],
+    "Average Iteration Time (ns)" : 
+    [
+      0
+    ],
+    "Iteration Time Standard Deviation" : 
+    [
+      0
+    ],
+    "Start Iteration" : 
+    [
+      0
+    ],
+    "Stop Iteration" : 
+    [
+      0
+    ],
+    "Total Iterations" : 
+    [
+      0
+    ]
+  },
+  "Summary Report" : 
+  {
+    "GPU Idle %" : 
+    [
+      7.9422915721663854
+    ],
+    "Tensor Core Kernel Utilization %" : 
+    [
+      27.804556011285001
+    ],
+    "Wall Clock Time (ns)" : 
+    [
+      125066639070
+    ]
+  },
+  "System Config" : 
+  {
+    "CPU Model" : 
+    [
+      "Intel(R) Core(TM) i5-8500 CPU @ 3.00GHz"
+    ],
+    "CUDA Version" : 
+    [
+      "11.1"
+    ],
+    "DLProf Build" : 
+    [
+      "16583139"
+    ],
+    "DLProf Version" : 
+    [
+      "v0.16.0 / r20.10"
+    ],
+    "Framework" : 
+    [
+      "UNKNOWN"
+    ],
+    "GPU Count" : 
+    [
+      "2"
+    ],
+    "GPU Driver Version" : 
+    [
+      "455.45.01"
+    ],
+    "GPU Name(s)" : 
+    [
+      "TITAN V"
+    ],
+    "NSys Version" : 
+    [
+      "2020.3.4.32-52657a0"
+    ],
+    "cuDNN Version" : 
+    [
+      "8.0.4"
+    ]
+  }
+}
