@@ -13,7 +13,7 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("--model_name", type=str, default="distilbert-base-uncased")
 parser.add_argument("--batch_size", type=int, default=32)
-parser.add_argument("--max_steps", type=int, default=500)
+parser.add_argument("--max_steps", type=int, default=300)
 parser.add_argument("--num_gpus", type=int, default=1)
 parser.add_argument("--max_seq_len", type=int, default=128)
 parser.add_argument("--dataset", type=str, default="imdb")
@@ -41,8 +41,7 @@ def load_data(args, tokenizer, split="train"):
                                              pin_memory=True,
                                              num_workers=args.num_workers,
                                              drop_last=True,
-                                             prefetch_factor=10,
-                                             persistent_workers=True)
+                                             prefetch_factor=10)
     
     return dataloader
 

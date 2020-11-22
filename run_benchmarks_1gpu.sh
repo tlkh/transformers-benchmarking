@@ -4,11 +4,11 @@
 export CUDA_DEVICE_ORDER=PCI_BUS_ID
 export CUDA_VISIBLE_DEVICES=0
 
-export EXP_PREFIX="results/titanv/amp"
+export EXP_PREFIX="results/v100-16gb-300w/amp"
 export MODEL_NAME="distilroberta-base"
 export BATCH_SIZE=8
 export SEQ_LEN=128
-export EXP_NAME="$EXP_PREFIX/$MODEL_NAME-$SEQ_LEN-$BATCH_SIZE"
+export EXP_NAME="$EXP_PREFIX/$MODEL_NAME/$SEQ_LEN-$BATCH_SIZE"
 
 # profile
 dlprof --mode=simple --reports=summary --output_path=$EXP_NAME \
@@ -26,7 +26,7 @@ rm $EXP_NAME/nsys_profile*
 
 export BATCH_SIZE=32
 export SEQ_LEN=128
-export EXP_NAME="$EXP_PREFIX/$MODEL_NAME-$SEQ_LEN-$BATCH_SIZE"
+export EXP_NAME="$EXP_PREFIX/$MODEL_NAME/$SEQ_LEN-$BATCH_SIZE"
 
 # profile
 dlprof --mode=simple --reports=summary --output_path=$EXP_NAME \
@@ -44,7 +44,7 @@ rm $EXP_NAME/nsys_profile*
 
 export BATCH_SIZE=64
 export SEQ_LEN=128
-export EXP_NAME="$EXP_PREFIX/$MODEL_NAME-$SEQ_LEN-$BATCH_SIZE"
+export EXP_NAME="$EXP_PREFIX/$MODEL_NAME/$SEQ_LEN-$BATCH_SIZE"
 
 # profile
 dlprof --mode=simple --reports=summary --output_path=$EXP_NAME \
@@ -62,7 +62,7 @@ rm $EXP_NAME/nsys_profile*
  
 export BATCH_SIZE=128
 export SEQ_LEN=128
-export EXP_NAME="$EXP_PREFIX/$MODEL_NAME-$SEQ_LEN-$BATCH_SIZE"
+export EXP_NAME="$EXP_PREFIX/$MODEL_NAME/$SEQ_LEN-$BATCH_SIZE"
 
 # profile
 dlprof --mode=simple --reports=summary --output_path=$EXP_NAME \
@@ -80,7 +80,7 @@ rm $EXP_NAME/nsys_profile*
 
 export BATCH_SIZE=8
 export SEQ_LEN=512
-export EXP_NAME="$EXP_PREFIX/$MODEL_NAME-$SEQ_LEN-$BATCH_SIZE"
+export EXP_NAME="$EXP_PREFIX/$MODEL_NAME/$SEQ_LEN-$BATCH_SIZE"
 
 # profile
 dlprof --mode=simple --reports=summary --output_path=$EXP_NAME \
@@ -98,7 +98,7 @@ rm $EXP_NAME/nsys_profile*
 
 export BATCH_SIZE=32
 export SEQ_LEN=512
-export EXP_NAME="$EXP_PREFIX/$MODEL_NAME-$SEQ_LEN-$BATCH_SIZE"
+export EXP_NAME="$EXP_PREFIX/$MODEL_NAME/$SEQ_LEN-$BATCH_SIZE"
 
 # profile
 dlprof --mode=simple --reports=summary --output_path=$EXP_NAME \
@@ -116,7 +116,7 @@ rm $EXP_NAME/nsys_profile*
 
 export BATCH_SIZE=64
 export SEQ_LEN=512
-export EXP_NAME="$EXP_PREFIX/$MODEL_NAME-$SEQ_LEN-$BATCH_SIZE"
+export EXP_NAME="$EXP_PREFIX/$MODEL_NAME/$SEQ_LEN-$BATCH_SIZE"
 
 # profile
 dlprof --mode=simple --reports=summary --output_path=$EXP_NAME \
@@ -134,7 +134,7 @@ rm $EXP_NAME/nsys_profile*
 
 export BATCH_SIZE=128
 export SEQ_LEN=512
-export EXP_NAME="$EXP_PREFIX/$MODEL_NAME-$SEQ_LEN-$BATCH_SIZE"
+export EXP_NAME="$EXP_PREFIX/$MODEL_NAME/$SEQ_LEN-$BATCH_SIZE"
 
 # profile
 dlprof --mode=simple --reports=summary --output_path=$EXP_NAME \
@@ -149,5 +149,3 @@ python run_training.py \
   --model_name=$MODEL_NAME --exp_name=$EXP_NAME
 
 rm $EXP_NAME/nsys_profile*
-
-  

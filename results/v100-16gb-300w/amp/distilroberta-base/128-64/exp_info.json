@@ -1,0 +1,1 @@
+{"model_name": "distilroberta-base", "batch_size": 64, "max_steps": 300, "num_gpus": 1, "max_seq_len": 128, "dataset": "imdb", "num_workers": 4, "profile_mode": false, "pytorch_adamw": false, "amp": true, "asp": false, "exp_name": "results/v100-16gb-300w/amp/distilroberta-base/128-64", "train_duration": 29.1806321144104, "cold_start_time": 32.49195837974548}

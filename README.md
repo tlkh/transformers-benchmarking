@@ -5,7 +5,7 @@ just for fun only
 ## Setup
 
 ```shell
-docker pull nvcr.io/nvidia/pytorch:20.11-py3
+docker pull nvcr.io/nvidia/pytorch:20.10-py3
 
 # inside container
 pip install -r requirements.txt -U

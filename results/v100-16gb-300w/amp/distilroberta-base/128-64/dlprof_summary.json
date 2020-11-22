@@ -1,0 +1,141 @@
+{
+  "All Kernels" : 
+  {
+    "All kernels" : 
+    {
+      "# Kernels" : 42,
+      "CPU Time (ns)" : 8488404706,
+      "GPU Time (ns)" : 33648117092
+    },
+    "All other kernels" : 
+    {
+      "# Kernels" : 27,
+      "CPU Time (ns)" : 4413433006,
+      "GPU Time (ns)" : 20099383973
+    },
+    "Kernels using TC" : 
+    {
+      "# Kernels" : 11,
+      "CPU Time (ns)" : 811958294,
+      "GPU Time (ns)" : 12861012145
+    },
+    "Memory" : 
+    {
+      "# Kernels" : 4,
+      "CPU Time (ns)" : 3263013406,
+      "GPU Time (ns)" : 687720974
+    }
+  },
+  "All Ops" : 
+  {
+    "All ops" : 
+    {
+      "# Ops" : 1,
+      "CPU Time (ns)" : 0,
+      "GPU Time (ns)" : 33643463551
+    },
+    "All other ops" : 
+    {
+      "# Ops" : 0,
+      "CPU Time (ns)" : 0,
+      "GPU Time (ns)" : 0
+    },
+    "Ops eligible for TC but not using" : 
+    {
+      "# Ops" : 0,
+      "CPU Time (ns)" : 0,
+      "GPU Time (ns)" : 0
+    },
+    "Ops using TC" : 
+    {
+      "# Ops" : 1,
+      "CPU Time (ns)" : 0,
+      "GPU Time (ns)" : 33643463551
+    }
+  },
+  "Iterations" : 
+  {
+    "Aggregated Iterations" : 
+    [
+      0
+    ],
+    "Average Iteration Time (ns)" : 
+    [
+      0
+    ],
+    "Iteration Time Standard Deviation" : 
+    [
+      0
+    ],
+    "Start Iteration" : 
+    [
+      0
+    ],
+    "Stop Iteration" : 
+    [
+      0
+    ],
+    "Total Iterations" : 
+    [
+      0
+    ]
+  },
+  "Summary Report" : 
+  {
+    "GPU Idle %" : 
+    [
+      50.617524881658149
+    ],
+    "Tensor Core Kernel Utilization %" : 
+    [
+      39.019592176492303
+    ],
+    "Wall Clock Time (ns)" : 
+    [
+      74344863734
+    ]
+  },
+  "System Config" : 
+  {
+    "CPU Model" : 
+    [
+      "Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz"
+    ],
+    "CUDA Version" : 
+    [
+      "11.1"
+    ],
+    "DLProf Build" : 
+    [
+      "16583139"
+    ],
+    "DLProf Version" : 
+    [
+      "v0.16.0 / r20.10"
+    ],
+    "Framework" : 
+    [
+      "UNKNOWN"
+    ],
+    "GPU Count" : 
+    [
+      "4"
+    ],
+    "GPU Driver Version" : 
+    [
+      "450.80.02"
+    ],
+    "GPU Name(s)" : 
+    [
+      "Tesla V100-DGXS-16GB, Tesla V100-DGXS-16GB"
+    ],
+    "NSys Version" : 
+    [
+      "2020.3.4.32-52657a0"
+    ],
+    "cuDNN Version" : 
+    [
+      "8.0.4"
+    ]
+  }
+}
