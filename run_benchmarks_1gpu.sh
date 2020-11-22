@@ -4,7 +4,7 @@
 export CUDA_DEVICE_ORDER=PCI_BUS_ID
 export CUDA_VISIBLE_DEVICES=0
 
-export EXP_PREFIX="results/ec2-v100/amp"
+export EXP_PREFIX="results/ec2-a100/amp"
 export MODEL_NAME="distilroberta-base"
 export BATCH_SIZE=8
 export SEQ_LEN=128
