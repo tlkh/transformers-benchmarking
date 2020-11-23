@@ -38,24 +38,40 @@ df_sel = df_sel[df["compute"] == compute_name]
 col1, col2 = st.beta_columns(2)
 
 with col1:
-    fig = px.bar(df_sel, x="batch_size", y=["throughput"], title="Training Throughput")
+    fig = px.bar(df_sel, x="batch_size", y=["throughput"],
+                 labels={
+                     "value": "Sequences per second",
+                 },
+                 title="Training Throughput")
     fig.update_xaxes(type='category')
     st.plotly_chart(fig, use_container_width=True)
 
 with col2:
-    fig = px.bar(df_sel, x="batch_size", y=["cpu_time", "forward", "backward"], title="Compute Timings")
+    fig = px.bar(df_sel, x="batch_size", y=["cpu_time", "forward", "backward"],
+                 labels={
+                     "value": "Time (seconds)",
+                 },
+                 title="Compute Timings")
     fig.update_xaxes(type='category')
     st.plotly_chart(fig, use_container_width=True)
 
 col1, col2 = st.beta_columns(2)
 
 with col1:
-    fig = px.bar(df_sel, x="batch_size", y=["sm_util", "tc_util", "vram_io"], title="GPU Utilization", barmode='group')
+    fig = px.bar(df_sel, x="batch_size", y=["sm_util", "tc_util", "vram_io"],
+                 labels={
+                     "value": "Percent (%)",
+                 },
+                 title="GPU Utilization", barmode='group')
     fig.update_xaxes(type='category')
     st.plotly_chart(fig, use_container_width=True)
 
 with col2:
-    fig = px.bar(df_sel, x="batch_size", y=["vram_usage"], title="VRAM Usage", barmode='group')
+    fig = px.bar(df_sel, x="batch_size", y=["vram_usage"],
+                 labels={
+                     "value": "VRAM Usage (GB)",
+                 },
+                 title="VRAM Usage", barmode='group')
     fig.update_xaxes(type='category')
     st.plotly_chart(fig, use_container_width=True)
 
