@@ -45,7 +45,7 @@ def load_data(args, tokenizer, split="train"):
     
     return dataloader
 
-def run_training(args, profiler, trainer_precision, do_eval=True):
+def run_training(args, profiler, trainer_precision, do_eval=False):
     transformer_model = models.TransformerModel(model_name=args.model_name, num_labels=2, fused_opt=fused_opt, sparse=args.asp)
     tokenizer = transformers.AutoTokenizer.from_pretrained(args.model_name, use_fast=True)
     train_dataloader = load_data(args, tokenizer, split="train")
@@ -101,7 +101,7 @@ def main():
     else:
         trainer_precision = 32
     
-    results = run_training(args, profiler, trainer_precision, do_eval=True)
+    results = run_training(args, profiler, trainer_precision, do_eval=False)
         
     experiment_data["train_duration"] = results["train_duration"]
     experiment_data["cold_start_time"] = results["cold_start_time"]

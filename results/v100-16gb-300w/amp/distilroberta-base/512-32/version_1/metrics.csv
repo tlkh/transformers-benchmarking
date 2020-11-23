@@ -1,3 +1,2 @@
-train_loss,epoch,step,test_loss
-0.2962046265602112,0,299,
-,0,300,0.18144167959690094
+train_loss,epoch,step
+0.30753254890441895,0,299

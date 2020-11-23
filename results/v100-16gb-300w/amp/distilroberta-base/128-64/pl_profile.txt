@@ -4,20 +4,20 @@ Profiler Report
 
 Action              	|  Mean duration (s)	|  Total time (s) 
 -----------------------------------------------------------------
-on_fit_start        	|  1.8988e-05     	|  1.8988e-05     
-on_train_start      	|  1.8879e-05     	|  1.8879e-05     
-on_epoch_start      	|  1.6682e-05     	|  1.6682e-05     
-on_train_epoch_start	|  1.1859e-05     	|  1.1859e-05     
-get_train_batch     	|  0.0013615      	|  0.40844        
-on_batch_start      	|  1.9203e-05     	|  0.0057608      
-on_train_batch_start	|  1.3717e-05     	|  0.0041152      
-training_step_end   	|  1.921e-05      	|  0.0057629      
-model_forward       	|  0.018414       	|  5.5243         
-model_backward      	|  0.066787       	|  20.036         
-on_after_backward   	|  1.909e-05      	|  0.0057269      
-optimizer_step      	|  0.089876       	|  26.963         
-on_batch_end        	|  1.9305e-05     	|  0.0057915      
-on_train_batch_end  	|  1.3588e-05     	|  0.0040765      
-on_epoch_end        	|  2.489e-05      	|  2.489e-05      
-on_train_epoch_end  	|  1.5998e-05     	|  1.5998e-05     
-on_train_end        	|  4.3142e-05     	|  4.3142e-05     
+on_fit_start        	|  1.7073e-05     	|  1.7073e-05     
+on_train_start      	|  1.9547e-05     	|  1.9547e-05     
+on_epoch_start      	|  1.5292e-05     	|  1.5292e-05     
+on_train_epoch_start	|  1.2028e-05     	|  1.2028e-05     
+get_train_batch     	|  0.0012351      	|  0.37052        
+on_batch_start      	|  1.9252e-05     	|  0.0057755      
+on_train_batch_start	|  1.1802e-05     	|  0.0035406      
+training_step_end   	|  2.0622e-05     	|  0.0061866      
+model_forward       	|  0.018552       	|  5.5657         
+model_backward      	|  0.068529       	|  20.559         
+on_after_backward   	|  2.538e-05      	|  0.0076139      
+optimizer_step      	|  0.092738       	|  27.821         
+on_batch_end        	|  2.0071e-05     	|  0.0060214      
+on_train_batch_end  	|  1.34e-05       	|  0.0040201      
+on_epoch_end        	|  1.7495e-05     	|  1.7495e-05     
+on_train_epoch_end  	|  1.6426e-05     	|  1.6426e-05     
+on_train_end        	|  4.548e-05      	|  4.548e-05      

@@ -1,0 +1,1 @@
+{"model_name": "roberta-large", "batch_size": 1, "max_steps": 300, "num_gpus": 1, "max_seq_len": 128, "dataset": "imdb", "num_workers": 4, "profile_mode": false, "pytorch_adamw": false, "amp": true, "asp": false, "exp_name": "results/v100-16gb-300w/amp/roberta-large/128-1", "train_duration": 59.886110067367554, "cold_start_time": 48.246931076049805}

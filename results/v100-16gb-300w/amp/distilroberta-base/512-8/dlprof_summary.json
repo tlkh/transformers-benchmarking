@@ -4,26 +4,26 @@
     "All kernels" : 
     {
       "# Kernels" : 44,
-      "CPU Time (ns)" : 17696349586,
-      "GPU Time (ns)" : 76765686880
+      "CPU Time (ns)" : 7057663440,
+      "GPU Time (ns)" : 17658196099
     },
     "All other kernels" : 
     {
       "# Kernels" : 29,
-      "CPU Time (ns)" : 11922215843,
-      "GPU Time (ns)" : 51454018128
+      "CPU Time (ns)" : 3391114097,
+      "GPU Time (ns)" : 11771924598
     },
     "Kernels using TC" : 
     {
       "# Kernels" : 11,
-      "CPU Time (ns)" : 2260336974,
-      "GPU Time (ns)" : 24566647484
+      "CPU Time (ns)" : 598341768,
+      "GPU Time (ns)" : 5341175409
     },
     "Memory" : 
     {
       "# Kernels" : 4,
-      "CPU Time (ns)" : 3513796769,
-      "GPU Time (ns)" : 745021268
+      "CPU Time (ns)" : 3068207575,
+      "GPU Time (ns)" : 545096092
     }
   },
   "All Ops" : 
@@ -32,7 +32,7 @@
     {
       "# Ops" : 1,
       "CPU Time (ns)" : 0,
-      "GPU Time (ns)" : 76726310071
+      "GPU Time (ns)" : 17658196099
     },
     "All other ops" : 
     {
@@ -50,7 +50,7 @@
     {
       "# Ops" : 1,
       "CPU Time (ns)" : 0,
-      "GPU Time (ns)" : 76726310071
+      "GPU Time (ns)" : 17658196099
     }
   },
   "Iterations" : 
@@ -84,15 +84,15 @@
   {
     "GPU Idle %" : 
     [
-      30.918171733501868
+      64.611382846969335
     ],
     "Tensor Core Kernel Utilization %" : 
     [
-      32.315748995654822
+      31.211033692406563
     ],
     "Wall Clock Time (ns)" : 
     [
-      117316167758
+      61410655296
     ]
   },
   "System Config" : 

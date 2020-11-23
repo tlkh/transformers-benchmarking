@@ -8,8 +8,12 @@ st.set_page_config(
 import pandas as pd
 import plotly.express as px
 
-SEQ_LEN_LIST = [128, 512]
-MODEL_LIST = ["distilroberta-base"]
+SEQ_LEN_LIST = [128, 256, 512]
+MODEL_LIST = [
+    "distilroberta-base",
+    "roberta-base",
+    "roberta-large"
+]
 GPU_LIST = ["v100-16gb-300w"]
 COMPUTE_LIST = ["amp"]
 

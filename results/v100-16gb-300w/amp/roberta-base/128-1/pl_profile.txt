@@ -1,0 +1,23 @@
+
+
+Profiler Report
+
+Action              	|  Mean duration (s)	|  Total time (s) 
+-----------------------------------------------------------------
+on_fit_start        	|  1.7674e-05     	|  1.7674e-05     
+on_train_start      	|  1.9051e-05     	|  1.9051e-05     
+on_epoch_start      	|  1.5029e-05     	|  1.5029e-05     
+on_train_epoch_start	|  1.1496e-05     	|  1.1496e-05     
+get_train_batch     	|  0.00069292     	|  0.20788        
+on_batch_start      	|  1.836e-05      	|  0.005508       
+on_train_batch_start	|  1.1172e-05     	|  0.0033517      
+training_step_end   	|  1.8579e-05     	|  0.0055737      
+model_forward       	|  0.032805       	|  9.8414         
+model_backward      	|  0.060158       	|  18.048         
+on_after_backward   	|  1.682e-05      	|  0.005046       
+optimizer_step      	|  0.1005         	|  30.15          
+on_batch_end        	|  1.6459e-05     	|  0.0049377      
+on_train_batch_end  	|  1.1704e-05     	|  0.0035113      
+on_epoch_end        	|  1.43e-05       	|  1.43e-05       
+on_train_epoch_end  	|  1.5435e-05     	|  1.5435e-05     
+on_train_end        	|  4.5432e-05     	|  4.5432e-05     
