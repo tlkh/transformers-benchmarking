@@ -2,3 +2,6 @@ transformers
 datasets
 pytorch-lightning
 tqdm
+streamlit
+plotly
+pandas
