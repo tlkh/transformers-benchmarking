@@ -1,0 +1,1 @@
+{"model_name": "roberta-base", "batch_size": 32, "max_steps": 300, "num_gpus": 1, "max_seq_len": 512, "dataset": "imdb", "num_workers": 4, "profile_mode": false, "pytorch_adamw": false, "amp": true, "asp": false, "exp_name": "results/a100-40gb-400w/amp/roberta-base/512-32", "train_duration": 74.84437537193298, "cold_start_time": 26.83774495124817}
