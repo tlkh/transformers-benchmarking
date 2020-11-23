@@ -19,7 +19,8 @@ run_benchmarks_1gpu.sh
 
 ### More Information
 
-**Important disclaimer**\n
+**Important disclaimer**
+
 Benchmarks are done by myself independently on with NVIDIA NGC PyTorch 20.10 container. The information is provided on a best-effort basis and I make no guarantees of the accuracy of the information. Feel free to [open a GitHub issue](https://github.com/tlkh/transformers-benchmarking/issues/new) if you have any questions or suggestions.
 
 This dashboard shows the measured performance of GPUs when training various configurations of Transformer networks, showing throughput (seq/s) and GPU memory (VRAM) usage. The idea is to allow users have an easy reference for choosing model configuration (model size/batch size/sequence length) and GPU model.
